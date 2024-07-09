@@ -2,7 +2,7 @@
 
 [**Live Demo →**](https://vagoda-doc.vercel.app/)
 
-[![](.github/screenshot.png)](https://vagoda-doc.vercel.app/)
+[![](.github/screenshot.jpeg)](https://vagoda-doc.vercel.app/)
 
 ## Quick Start
 
