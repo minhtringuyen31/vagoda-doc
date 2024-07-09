@@ -8,15 +8,15 @@ const config: DocsThemeConfig = {
     console.log("Dark Mode: ", darkMode);
     return darkMode ? (
       <img
-        src="https://res.cloudinary.com/dgsrxvev1/image/upload/v1720255067/vagoda_viznwl.png"
-        style={{ height: 50 }}
-        alt="logo"
+        src="https://res.cloudinary.com/dgsrxvev1/image/upload/v1720526803/dark_xzdwmv.png"
+        style={{ height: 45 }}
+        alt="l_logo"
       />
     ) : (
       <img
-        src="https://res.cloudinary.com/dgsrxvev1/image/upload/v1720255067/vagoda_viznwl.png"
-        style={{ height: 50 }}
-        alt="logo"
+        src="https://res.cloudinary.com/dgsrxvev1/image/upload/v1720526803/dark_xzdwmv.png"
+        style={{ height: 45 }}
+        alt="d_logo"
       />
     );
   },

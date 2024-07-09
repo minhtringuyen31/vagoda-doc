@@ -8,7 +8,7 @@ const Title = () => {
     <div className={styles.container}>
       <div className={styles.title}>WELCOME TO OFFICICAL</div>
       <div className={styles.title}>VAGODA DOCUMENTATION</div>
-      <div className={styles.description}>
+      <div className={styles.subTitle}>
         This page provides a comprehensive overview of Vagoda, covering its
         technologies, theories, research methods, and applications across the
         Vagoda platform. Explore the integration of Gen AI into E-commerce
