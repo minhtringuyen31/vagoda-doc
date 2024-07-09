@@ -1,10 +1,8 @@
-# Nextra Docs Template 
+# Vagoda Docs
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+[**Live Demo →**](https://vagoda-doc.vercel.app/)
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
-
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
+[![](.github/screenshot.png)](https://vagoda-doc.vercel.app/)
 
 ## Quick Start
 
