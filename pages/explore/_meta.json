@@ -1,0 +1,9 @@
+{
+  "llm-transformer": "LLM & Transformer Architecture",
+  "gpt4": "GPT-4",
+  "rag": "Retrieval Augmented Generation (RAG)",
+  "react-agent": "ReAct Agent",
+  "stabble-diffusion": "Stabble Diffusion Model",
+  "oot": "OOT Diffusion Model",
+  "comfyui": "ComfyUI"
+}
