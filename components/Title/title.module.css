@@ -18,3 +18,13 @@
   font-size: large;
   text-align: center;
 }
+
+@media (max-width: 576px) {
+  .title {
+    font-size: 30px;
+  }
+
+  .subTitle {
+    font-size: 0.875rem;
+  }
+}
