@@ -2,7 +2,7 @@
   "llm-transformer": "LLM & Transformer Architecture",
   "rag": "Retrieval Augmented Generation (RAG)",
   "react-agent": "ReAct Agent",
-  "stabble-diffusion": "Stabble Diffusion Model",
+  "stabble-diffusion": "Stabble Diffusion",
   "oot": "OOT Diffusion Model",
   "comfyui": "ComfyUI"
 }
