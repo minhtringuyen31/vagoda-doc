@@ -27,6 +27,16 @@ const config: DocsThemeConfig = {
     link: "https://discord.com",
   },
   docsRepositoryBase: "https://github.com/minhtringuyen31/vagoda-doc.git",
+  head: (
+    <>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta property="og:title" content="Vagoda Doc" />
+      <meta
+        property="og:description"
+        content="The document site of Vagoda project"
+      />
+    </>
+  ),
   footer: {
     text: "Vagoda",
   },
