@@ -1,0 +1,27 @@
+
+.generalDivStype
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* margin-top: "10px";
+    margin-bottom: "10px"; */
+}
+
+.captionStyle
+{
+    font-weight: 500;
+}
+
+.imageStyle
+{
+    height: auto;
+}
+
+@media (max-width: 576px) {
+    .imageStyle {
+        width: 75%;
+    }
+}
