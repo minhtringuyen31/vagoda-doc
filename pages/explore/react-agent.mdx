@@ -1,0 +1,20 @@
+# Synergizing Reasoning and Acting in Large Language Model
+
+Human intelligence lies in the harmonious combination of acting according to needs and using reasoning to guide subsequent steps. This allows people to quickly learn and adapt to new situations and make sound decisions when necessary. Researchers working on ReAct aim to replicate this harmony in language models, enabling them to generate reasoned arguments and actions tailored to specific tasks.
+
+## What is ReAct Agent?
+
+ReAct Prompt is a framework applied in language models to generate alternating reasoning and actions. The reasoning component helps the model track and update action plans while handling exceptional situations. The action component enables the model to interact and gather information from external sources through tools such as functions or APIs. Results indicate that ReAct Prompt enhances interpretability and increases the reliability of the model. Additionally, it allows large language models to access external knowledge sources through the suggested tools.
+
+The process involves three stages: Thought, Action, and Observation.
+
+1. **Thought:** This stage involves the model reflecting on what it should do. Based on this reasoning and the description of the tools' functions, the model generates actions.
+2. **Action:** This stage involves executing the actions decided in the Thought stage using the appropriate tools.
+
+3. **Observation:** In this stage, the results from the actions are observed and evaluated. Based on the observation, the model decides whether it has enough information to answer the user's request. If sufficient, the process ends, and the model generates a response. If not, the model uses the observations to generate further thoughts and repeats the process.
+
+![react-agent](https://res.cloudinary.com/dgsrxvev1/image/upload/v1721833718/Screenshot_2024-07-24_220804_o0gzij.png)
+
+**The Integration of ReAct Agent and RAG:**
+
+![reactic-rag](https://res.cloudinary.com/dgsrxvev1/image/upload/v1721832884/agentic_rag_fmwpns.png)
