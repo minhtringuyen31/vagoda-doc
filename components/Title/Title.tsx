@@ -12,6 +12,7 @@ const Title = (props: TitleProps) => {
   return (
     <div className={styles.container}>
       <div className={styles.title}>{props.title}</div>
+      <div className={styles.divider}></div>
 
       <div className={styles.subTitle}>{props.subTitle}</div>
     </div>
