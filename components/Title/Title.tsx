@@ -3,18 +3,17 @@ import styles from "./title.module.css";
 
 import React from "react";
 
-const Title = () => {
+interface TitleProps {
+  title: string;
+  subTitle: string;
+}
+
+const Title = (props: TitleProps) => {
   return (
     <div className={styles.container}>
-      <div className={styles.title}>WELCOME TO OFFICICAL</div>
-      <div className={styles.title}>VAGODA DOCUMENTATION</div>
-      <div className={styles.subTitle}>
-        This page provides a comprehensive overview of Vagoda, covering its
-        technologies, theories, research methods, and applications across the
-        Vagoda platform. Explore the integration of Gen AI into E-commerce
-        platforms specifically, as well as its applications across all fields of
-        life in general.
-      </div>
+      <div className={styles.title}>{props.title}</div>
+
+      <div className={styles.subTitle}>{props.subTitle}</div>
     </div>
   );
 };
