@@ -3,6 +3,8 @@
   "rag": "Retrieval Augmented Generation (RAG)",
   "react-agent": "ReAct Agent",
   "stabble-diffusion": "Stabble Diffusion",
-
+  "oot": "OOT Diffusion Model",
+  "ipadapter": "Image Processing Adapter",
+  "gen-image-workflow": "Generate Image With IPAdapter and Stable Diffusion",
   "comfyui": "ComfyUI"
 }
