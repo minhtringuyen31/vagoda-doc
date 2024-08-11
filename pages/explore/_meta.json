@@ -6,5 +6,6 @@
   "oot": "OOT Diffusion Model",
   "ipadapter": "Image Processing Adapter",
   "gen-image-workflow": "Generate Image With IPAdapter and Stable Diffusion",
-  "comfyui": "ComfyUI"
+  "comfyui": "ComfyUI",
+  "temp": "Temp"
 }
